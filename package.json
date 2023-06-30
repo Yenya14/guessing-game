@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "testem"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Yenya14/guessing-game.git"
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Yenya14/guessing-game/issues"
   },
-  "homepage": "https://github.com/Yenya14/guessing-game#readme"
+  "homepage": "https://github.com/Yenya14/guessing-game#readme",
+  "devDependencies": {
+    "testem": "^3.10.1"
+  }
 }
